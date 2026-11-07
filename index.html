@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>KEPLER — the world in your hands</title>
-  <meta name="description" content="Kepler's proposal to The Wayfarer's Collective for LEAP, a moving settlement in Gusev Crater.">
-  <meta name="theme-color" content="#1a4eae">
+  <title>RedShift — Kepler</title>
+  <meta name="description" content="RedShift is Kepler's proposal to The Wayfarer's Collective for LEAP, a geodesic settlement in Gusev Crater.">
+  <meta name="theme-color" content="#8f2430">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/site.css">
   <link rel="stylesheet" href="css/mars.css">
@@ -26,6 +26,7 @@
       </svg>
       <span class="brand-name">KEPLER</span>
     </a>
+    <span class="project-name">RedShift</span>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
     <nav class="menu" id="menu" aria-label="Primary">
       <a href="mission.html">Mission</a>
@@ -36,38 +37,30 @@
 
   <main id="content">
     <section class="sky hero">
-      <svg class="watermark" viewBox="0 0 120 70" aria-hidden="true">
-        <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
-          <path d="M6 64 Q60 2 114 64"/>
-          <path d="M20 64 Q60 16 100 64"/>
-          <path d="M34 64 Q60 30 86 64"/>
-          <path d="M46 64 Q60 44 74 64"/>
-        </g>
-        <circle cx="97" cy="22" r="3.1" fill="currentColor"/>
-      </svg>
-      <div class="wrap hero-grid">
-        <div>
-          <p class="eyebrow">LEAP tender · 7 November 2056</p>
-          <svg class="hero-mark" viewBox="0 0 120 70" aria-hidden="true">
-            <g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
-              <path d="M6 64 Q60 2 114 64"/>
-              <path d="M20 64 Q60 16 100 64"/>
-              <path d="M34 64 Q60 30 86 64"/>
-              <path d="M46 64 Q60 44 74 64"/>
-            </g>
-            <circle cx="97" cy="22" r="3.1" fill="currentColor"/>
-          </svg>
-          <h1>KEPLER</h1>
+      <div class="hero-stage">
+        <div class="hero-panel">
+          <p class="eyebrow">Kepler · LEAP tender · 7 November 2056</p>
+          <h1>RedShift</h1>
           <p class="tagline">the world in your hands</p>
-          <p class="deck">A proposal to The Wayfarer's Collective for the Life Examination and Analysis Project. Twenty people in Gusev Crater, under a rigid geodesic dome that can be taken apart and raised again.</p>
+          <div class="spectrum">
+            <p class="spectrum-label" id="spectrum-label">Move the light</p>
+            <div class="spectrum-bar" id="spectrum" tabindex="0" role="slider" aria-valuemin="430" aria-valuemax="680" aria-valuenow="620" aria-labelledby="spectrum-label">
+              <span class="spectrum-thumb" id="spectrum-thumb"></span>
+            </div>
+            <p class="spectrum-read" id="spectrum-read" aria-live="polite">620 nm · the light is leaving</p>
+          </div>
+          <p class="deck">Kepler's settlement for the Wayfarer's Collective. Twenty people in Gusev Crater, under a rigid geodesic dome that packs flat and can be raised again in seventy-two hours.</p>
           <div class="hero-actions">
             <a class="btn btn-white" href="mission.html">The mission</a>
             <a class="btn btn-ghost" href="delivery.html">How we deliver</a>
           </div>
           <p class="schools">Kendrick School · Churcher's College · Berkhamsted School</p>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/mars-dome.jpg" alt="Artistic view of the RedShift geodesic dome on Martian ground at dusk.">
           <figure class="glass-dome">
-            <img src="assets/dome.svg" alt="Line diagram of a geodesic dome, the proposed shape of the Kepler shell.">
-            <figcaption>Artistic rendition · rigid geodesic shell</figcaption>
+            <img src="assets/dome.svg" alt="Line diagram of the geodesic dome proposed for RedShift.">
+            <figcaption>Artistic rendition · rigid shell</figcaption>
           </figure>
         </div>
       </div>
@@ -76,8 +69,8 @@
     <section class="section">
       <div class="wrap">
         <div class="section-head reveal">
-          <h2>A settlement that can begin again.</h2>
-          <p class="lede">The Collective needs a base on Mars within two years, and a base that can be taken apart. Kepler's offer is small enough to travel in two containers, quick enough to rebuild in seventy-two hours, and steady enough for a crew to do the work.</p>
+          <h2>RedShift can begin again.</h2>
+          <p class="lede">The Collective needs a base on Mars within two years, and a base that can be taken apart. RedShift is Kepler's offer: small enough for two containers, quick enough to rebuild in seventy-two hours, and steady enough for a crew to do the work.</p>
         </div>
         <div class="stats reveal">
           <p class="stat"><b>20</b><span>Permanent staff, rotating every three months.</span></p>
@@ -91,12 +84,12 @@
       <div class="wrap shell-grid">
         <figure class="frame reveal">
           <img src="assets/mars-dome.jpg" alt="A geodesic dome of triangular panels on rust-coloured Martian ground, with warm light in a few facets.">
-          <figcaption>Artistic rendition. Kepler's pressure shell is a rigid geodesic dome. This picture is not a fabrication drawing, and it does not fix panel size, airlocks, or the pack.</figcaption>
+          <figcaption>Artistic rendition. RedShift's pressure shell is a rigid geodesic dome. This picture is not a fabrication drawing, and it does not fix panel size, airlocks, or the pack.</figcaption>
         </figure>
         <div class="reveal">
           <p class="eyebrow">The shell</p>
           <h2>A dome that packs flat.</h2>
-          <p class="lede" style="margin-top: 1rem">The client has required a rigid shell. Kepler's form for that shell is a geodesic dome: triangular panels, shared edges, and a shape that stands on sand without a thick frame. The panels come apart, lie flat in the two CASSSCs, and go up again with hand tools inside seventy-two hours.</p>
+          <p class="lede" style="margin-top: 1rem">The client has required a rigid shell. RedShift's form for that shell is a geodesic dome: triangular panels, shared edges, and a shape that stands on sand without a thick frame. The panels come apart, lie flat in the two CASSSCs, and go up again with hand tools inside seventy-two hours.</p>
           <p class="lede" style="margin-top: 0.8rem">The dome in the photograph is the idea of the base. Structures will draw the real panels. Until that drawing is signed, this view stays an artistic rendition.</p>
         </div>
       </div>
@@ -192,7 +185,7 @@
             <span class="brand-name">KEPLER</span>
           </a>
           <p class="tagline">the world in your hands</p>
-          <p>Proposal to The Wayfarer's Collective for the LEAP contract.</p>
+          <p>RedShift, Kepler's proposal to The Wayfarer's Collective for the LEAP contract.</p>
         </div>
         <div>
           <p>Gusev Crater<br>In-situ delivery by 7 November 2058<br>Ten-year mission</p>
